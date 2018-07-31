@@ -48,4 +48,9 @@ interface AggregationsInterface
      * @return
      */
     public function applyAggregationsToParams(&$params);
+
+    /**
+     * Clear the currently set aggregations.
+     */
+    public function clearAggregations();
 }

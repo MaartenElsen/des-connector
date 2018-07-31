@@ -136,4 +136,11 @@ class Aggregations implements AggregationsInterface
     {
 
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function clearAggregations() {
+      $this->aggregations = array();
+    }
 }
